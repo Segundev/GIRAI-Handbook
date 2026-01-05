@@ -1,12 +1,12 @@
 # Site Information
-site_name: GIRAI Researcher's Handbook
+site_name: Global Index on Responsible AI Researcher's Handbook
 site_description: Comprehensive guide for researchers contributing to the Global Index on Responsible Artificial Intelligence (GIRAI)
 site_author: Global Center on AI Governance
 
 # Repository (update with your actual repo URL)
-repo_url: https://github.com/your-organization/girai-handbook
-repo_name: GitHub
-edit_uri: edit/main/docs/
+# repo_url: https://github.com/your-organization/girai-handbook
+# repo_name: GitHub
+# edit_uri: edit/main/docs/
 
 # Copyright
 copyright: Copyright &copy; 2025 Global Center on AI Governance
@@ -15,36 +15,39 @@ copyright: Copyright &copy; 2025 Global Center on AI Governance
 theme:
   name: material
 
+  logo: assets/GI-LOGO-02.png
+  favicon: assets/GI-FAVICON.png
+
   font:
-    text: DM Sans
-  
+    text: Roboto
+
   # Color Palette
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: deep purple
+      primary: custom
+      accent: custom
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
-    
+
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: deep purple
+      primary: deep purple
+      accent: deep orange
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
-  
+
   # Features
   features:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
+    # - navigation.expand
     - navigation.top
     - search.suggest
     - search.highlight
@@ -76,17 +79,33 @@ markdown_extensions:
 # Navigation Structure
 nav:
   - Home: index.md
-  - Introduction:
-      - Overview: introduction/index.md
-      - Purpose: introduction/purpose.md
-      - Who Should Use This: introduction/who-should-use.md
-      - List of Acronyms: introduction/acronyms.md
-  - Key Concepts:
-      - Overview: key-concepts/index.md
-      - Artificial Intelligence: key-concepts/artificial-intelligence.md
-      - Responsible AI: key-concepts/responsible-ai.md
+  # - Introduction:
+  #     - Overview: introduction/index.md
+  #     - Purpose: introduction/purpose.md
+  #     - Who Should Use This: introduction/who-should-use.md
+  #     - List of Acronyms: introduction/acronyms.md
+  - Key Concepts: key-concepts/index.md
+
+  - Indicators:
+      - All Indicators: indicators/index.md
+      - Dimensions:
+          - Inclusion and Diversity:
+              - Gender Equality: indicators/dimensions/inclusion-and-diversity/gender-equality.md
+              - Children's Rights: indicators/dimensions/inclusion-and-diversity/childrens-rights.md
+              - Cultural and Linguistic Diversity: indicators/dimensions/inclusion-and-diversity/cultural-and-linguistic-diversity.md
+              - CSO Engagement on Inclusion and Diversity: indicators/dimensions/inclusion-and-diversity/cso-engagement.md
+          - Ethics and Sustainability:
+              - Fairness and Non Discrimination: indicators/dimensions/ethics-and-sustainability/fairness-and-non-discrimination.md
+              - Transparency and Explainability: indicators/dimensions/ethics-and-sustainability/transparency-and-explainability.md
+              - Human Oversight and Determination: indicators/dimensions/ethics-and-sustainability/human-oversight-and-determination.md
+              - Environmental Impact: indicators/dimensions/ethics-and-sustainability/environmental-impact.md
+              - CSO Engagement on Ethics and Sustainability: indicators/dimensions/ethics-and-sustainability/cso-engagement.md
+
+extra_css:
+  - stylesheets/extra.css
 
 # Extra
+
 extra:
   social:
     - icon: fontawesome/brands/github

@@ -1,0 +1,27 @@
+:root {
+    --md-typeset-line-height: 1.6;
+    --md-typeset-font-size: 0.8rem;
+}
+
+:root>* {
+    --md-primary-fg-color: #6f4ff0;
+    --md-primary-fg-color--light: #6f4ff0;
+    --md-primary-fg-color--dark: #6f4ff0;
+    --md-accent-fg-color: #44b6a1;
+    --md-accent-fg-color--light: #44b6a1;
+    --md-accent-fg-color--dark: #44b6a1;
+}
+
+.md-typeset {
+    line-height: var(--md-typeset-line-height);
+    font-size: var(--md-typeset-font-size);
+}
+
+/* [data-md-color-scheme="girai-custom"] {
+    --md-primary-fg-color: #6f4ff0;
+    --md-primary-fg-color--light: #6f4ff0;
+    --md-primary-fg-color--dark: #6f4ff0; 
+    --md-accent-fg-color: #7effe7;
+    --md-accent-fg-color--light: #7effe7;
+    --md-accent-fg-color--dark: #7effe7;
+} */

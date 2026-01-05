@@ -1,35 +1,40 @@
-# Introduction
+# Global Index on Responsible AI Handbook
 
-Welcome to the **GIRAI Researcher's Handbook** for the second edition of the Global Index on Responsible Artificial Intelligence.
+## Introduction
 
-## About This Handbook
+The **Global Index on Responsible AI** is a global measurement initiative that tracks country progress toward responsible AI, mapping policies, regulatory frameworks, and civil society engagement. It serves as an evidence-based tool to inform global debates and policy recommendations, drive government action, and encourage private sector alignment with responsible AI principles.
 
-This Handbook provides **practical instructions** for researchers contributing to the second edition of the Global Index on Responsible Artificial Intelligence (GIRAI). It outlines how to collect, document, and submit evidence in a way that ensures consistency in around 140 countries.
+![GIRAI Handbook](/assets/HEADER.png "GIRAI Handbook")
 
-!!! abstract "Core Purpose"
-The aim is to support a rigorous and harmonized process that allows the Index to present reliable, comparable, and meaningful insights.
+## What does the index measure?
 
-## What You'll Find Here
+The Index assesses countries’ commitments and practices to ensure that the design, development, deployment, adoption, and oversight of artificial intelligence are ethical, rights-respecting, inclusive, and aligned with democratic values and principles. It does so by evaluating the existence of government frameworks and their implementation, government-led initiatives where such frameworks are absent, and civil society engagement — across five dimensions: Inclusion and Diversity, Ethics and Sustainability, Labour and Skills, Trust and Safety, and Use of AI in Public Service Delivery.
 
-This handbook is organized into clear sections to guide you through the GIRAI research process:
+## Index Structure
 
-### 📖 In This Section
+The Global Index on Responsible AI is structured around dimensions that align with human rights-based standards and democratic principles.
 
-- **[Purpose](purpose.md)** - Understand the goals and objectives of this handbook
-- **[Who Should Use This](who-should-use.md)** - Identify your role in the GIRAI research network
-- **[List of Acronyms](acronyms.md)** - Quick reference for abbreviations used throughout
+Each dimension is measured through indicators that capture core components of Responsible AI, based on the operationalisation of the UNESCO Recommendation.
 
-## Important Note
+To provide a comprehensive picture, the indicators are grouped into three categories:
 
-!!! warning "Read Before Starting"
-Researchers should thoroughly read this entire document before beginning work on the questionnaire. If they encounter any doubts about how to respond to a specific question or understand key concepts within each indicator, they may refer back to this document.
+- government frameworks and practices indicators, which assess the existence, scope, and implementation of government frameworks and initiatives, including implementing activities, actions taken in the absence of frameworks, and instances of government misuse;
+- civil society engagement indicators, which capture the involvement of civil society organisations in shaping Responsible AI; and
+- country context indicators, which account for the broader enabling conditions relevant Responsible AI.
 
-This document serves as the **primary guideline** for comprehending and addressing survey questions.
+Each dimension is built from indicators, some drawn from primary data and others from secondary data, whose results are then aggregated to produce the overall score of the Global Index.
 
-## Getting Help
+## Who should use this Handbook
 
-If questions remain after consulting this document, researchers must post them in the **GIRAI Knowledge Forum**, so that clarifications are documented and accessible to the full research network.
+The Handbook is intended for use by all members of the GIRAI research network. This includes:
+
+- country researchers, who complete the GIRAI questionnaires and draft country summaries;
+- country coordinators, who report for their own country while also overseeing the work of other researchers within their region, reviewing all answers, and identifying relevant regional repositories;
+- regional supervisors, from the Global Center on AI Governance (GCG) or partner institutions, who monitor coordinators’ work and spot-check submissions; and
+- global reviewers, responsible AI and policy experts who conduct the final validation of all approved answers.
+
+Each group plays a distinct but complementary role in building a robust and credible Index.
 
 ---
 
-**Next Step**: Learn about the [Purpose of this Handbook →](introduction.md)
+**Next Step**: Learn about the [Key Concepts →](key-concepts/index.md)

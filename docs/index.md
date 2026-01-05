@@ -4,7 +4,7 @@
 
 The **Global Index on Responsible AI** is a global measurement initiative that tracks country progress toward responsible AI, mapping policies, regulatory frameworks, and civil society engagement. It serves as an evidence-based tool to inform global debates and policy recommendations, drive government action, and encourage private sector alignment with responsible AI principles.
 
-![GIRAI Handbook](assets/HEADER.png)
+![GIRAI Handbook](./assets/HEADER.png)
 
 ## What does the index measure?
 

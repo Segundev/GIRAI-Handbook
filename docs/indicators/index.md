@@ -4,7 +4,7 @@ The five dimensions of the Global Index, along with their indicators, are:
 
 1. Inclusion and Diversity
     Definition: The value of promoting different backgrounds, groups, perspectives, and identities to ensure equitable participation, representation and belonging for all in the design, development, and deployment of AI.
-    1. [Gender Equality (primary)](./indicators/dimensions/inclusion-and-diversity/gender-equality/)
+    1. [Gender Equality (primary)](../indicators/dimensions/inclusion-and-diversity/gender-equality/)
     2. [Children's Rights (primary)](./indicators/dimensions/inclusion-and-diversity/childrens-rights)
     3. Rights of Persons with Disabilities (secondary)
     4. [Cultural and Linguistic Diversity (primary)](./indicators/dimensions/inclusion-and-diversity/cultural-and-linguistic-diversity)
